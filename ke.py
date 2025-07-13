@@ -24,7 +24,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/mdsjahid999/KE-X/tree/main').text
+    prox= requests.get('https://github.com/mdsjahid999/KE-X/blob/main/Approved.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
