@@ -274,7 +274,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/mdsjahid999/PAID-JD/blob/main/Approval99.txt').text
+        a=requests.get('https://github.com/mdsjahid999/KE-X/blob/main/Approved.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
