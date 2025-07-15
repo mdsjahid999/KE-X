@@ -368,7 +368,7 @@ def clear():
 def back():
     menu()
 def contact():
-    os.system('xdg-open https://www.facebook.com/profile.php?id=61554904464871')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100092086017105')
     back()
 def linex():
     print('\033[1;37m')
